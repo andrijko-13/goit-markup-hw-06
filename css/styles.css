@@ -410,7 +410,7 @@ header a {
   padding: 10px 55px;
   margin-left: auto;
   margin-right: auto;
-  background: var(--active-color);
+  background: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border: 0;
