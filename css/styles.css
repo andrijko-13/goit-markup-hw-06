@@ -387,42 +387,6 @@ header a {
   text-decoration-line: underline;
 }
 
-/*
-.policy-label::before {
-  content: "";
-  display: inline-block;
-  background-image: url(../images/sprite.svg#checkbox);
-  margin-right: 7px;
-  width: 16px;
-  height: 15px;
-  border: 2px solid var(--accent-color);
-  border-radius: 2px;
-}
-.policy-label::after {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-  content: "";
-  display: inline-block;
-  margin-right: 7px;
-  width: 16px;
-  height: 15px;
-  background-image: url(../images/sprite.svg#checkbox-confirm);
-  background-color: var(--active-color);
-  background-size: contain;
-  background-origin: border-box;
-  background-position: center;
-  border: 2px solid var(--active-color);
-  border-radius: 2px;
-  opacity: 0;
-  transition: opacity var(--time) var(--animation),
-    background-image var(--time) var(--animation),
-    background-color var(--time) var(--animation);
-}
-*/
-
-
 .policy-label::before {
   content: "";
   margin-right: 12px;
@@ -438,24 +402,6 @@ header a {
 
 .checkbox-policy:focus + .policy-label::before {
   outline: 2px solid var(--accent-color);
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.policy-label:checked {
-  background-image: url(../images/sprite.svg#checkbox-confirm);
 }
 
 .button-blank {
